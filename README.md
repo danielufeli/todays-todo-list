@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List
+# Today's To Do List
 
 HTML list of To Do tasks
 
@@ -19,7 +19,7 @@ HTML list of To Do tasks
 To get a local copy up and running follow these simple example steps:
 
 - Select the link with the code on the https code tab in the repo.
-- Open a Terminal and write the command: git clone "git@github.com:danielufeli/todolist.git".
+- Open a Terminal and write the command: git clone "git@github.com:danielufeli/todays-todo-list.git".
 - Drag the index.html to any browser.
 
 ## Authors
