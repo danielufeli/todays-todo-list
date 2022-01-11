@@ -12,7 +12,7 @@ HTML list of To Do tasks
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://danielufeli.github.io/todays-todo-list/dist)
 
 ## Getting Started
 
