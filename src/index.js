@@ -54,8 +54,8 @@ const component = () => {
     });
   };
 
-  const addTodo = (event) => {
-    event.preventDefault();
+  const addTodo = (e) => {
+    e.preventDefault();
     const obj = {
       description: todoInput.value,
       index: todos.length + 1,
