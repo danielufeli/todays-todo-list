@@ -32,11 +32,12 @@ body {
 
 .wrapper header span {
   float: right;
+  cursor: pointer;
 }
 
 .wrapper .inputField {
   display: flex;
-  height: 45px;
+  height: 55px;
   width: 100%;
   padding: 15px;
   border-bottom: 2px solid #edebed;
@@ -54,6 +55,7 @@ body {
 .todoList li input {
   border: none;
   color: #434142;
+  padding-left: 10px;
 }
 
 .inputField input:focus {
@@ -64,6 +66,8 @@ body {
   background: transparent;
   color: #cdcbcd;
   border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .todoList li {
@@ -79,7 +83,7 @@ body {
   outline: none;
 }
 
-.todoList li span {
+.todoList li button {
   position: absolute;
   right: 0;
   margin-right: 15px;
@@ -100,4 +104,23 @@ body {
   background: transparent;
   color: #7d7b7d;
   align-self: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.completed input[type='text'] {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.trash-btn {
+  background: transparent;
+  border: none;
+  height: 45px;
+  cursor: pointer;
+}
+
+.fa-trash-alt,
+.fa-check {
+  pointer-events: none;
 }
