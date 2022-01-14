@@ -73,8 +73,8 @@ const component = () => {
     } else {
       todos = JSON.parse(localStorage.getItem('todos'));
     }
-    const m = todos.filter((x) => x.index.toString() !== todo.id);
-    const reset = m.map((e, i) => {
+    const filterArr = todos.filter((x) => x.index.toString() !== todo.id);
+    const reset = filterArr.map((e, i) => {
       e.index = i + 1;
       return e;
     });
