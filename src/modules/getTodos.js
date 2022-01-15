@@ -1,5 +1,5 @@
 const getTodos = () => {
-  let todoList = document.querySelector('.todoList');
+  const todoList = document.querySelector('.todoList');
 
   let todos = [];
   if (localStorage.getItem('todos') === null) {

@@ -1,8 +1,8 @@
-import removeTodos from './removeTodos';
+import removeTodos from './removeTodos.js';
 import statusUpdate from './updateTodos.js';
 
 const deleteCheckedTodo = (e) => {
-  let todos = JSON.parse(localStorage.getItem('todos'));
+  const todos = JSON.parse(localStorage.getItem('todos'));
   const item = e.target;
 
   if (item.classList[0] === 'trash-btn') {

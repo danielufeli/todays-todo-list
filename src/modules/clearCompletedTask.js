@@ -1,6 +1,6 @@
-import getTodos from './getTodos';
+import getTodos from './getTodos.js';
 
-const clearCompletedTask = (e) => {
+const clearCompletedTask = () => {
   const todoList = document.querySelector('.todoList');
   const oldTodos = JSON.parse(localStorage.getItem('todos'));
   const newTodos = oldTodos.filter((i) => !i.completed);

@@ -1,4 +1,4 @@
-import getTodos from './getTodos';
+import getTodos from './getTodos.js';
 
 const addTodo = (e) => {
   let todos = [];

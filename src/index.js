@@ -4,10 +4,10 @@ import '@fortawesome/fontawesome-free/js/solid.js';
 import '@fortawesome/fontawesome-free/js/regular.js';
 import '@fortawesome/fontawesome-free/js/brands.js';
 import updateTask from './modules/updateTask.js';
-import getTodos from './modules/getTodos';
-import addTodo from './modules/addTodo';
-import deleteCheckedTodo from './modules/deleteCheckedTodo';
-import clearCompletedTask from './modules/clearCompletedTask';
+import getTodos from './modules/getTodos.js';
+import addTodo from './modules/addTodo.js';
+import deleteCheckedTodo from './modules/deleteCheckedTodo.js';
+import clearCompletedTask from './modules/clearCompletedTask.js';
 
 const todoInput = document.querySelector('.todo-input');
 const todoList = document.querySelector('.todoList');
