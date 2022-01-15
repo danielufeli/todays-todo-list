@@ -26,4 +26,4 @@ todoInput.addEventListener('change', addTodo);
 todoList.addEventListener('click', deleteCheckedTodo);
 todoList.addEventListener('change', updateTaskCall);
 clearTask.addEventListener('click', clearCompletedTask);
-document.addEventListener('DOMContentLoaded', getTodos());
+document.addEventListener('DOMContentLoaded', getTodos);
