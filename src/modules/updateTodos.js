@@ -1,5 +1,5 @@
 const statusUpdate = (index) => {
-  const todos = JSON.parse(localStorage.getItem('todos'));
+  let todos = JSON.parse(localStorage.getItem('todos'));
   todos.forEach((todo) => {
     if (todo.index.toString() === index) {
       if (todo.completed === true) {
