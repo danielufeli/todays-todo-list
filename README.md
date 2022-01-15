@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Select the link with the code on the https code tab in the repo.
 - Open a Terminal and write the command: git clone "git@github.com:danielufeli/todays-todo-list.git".
-- Drag the index.html to any browser.
+- run npm start in the terminal.
 
 ## Authors
 
